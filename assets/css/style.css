@@ -247,7 +247,6 @@ margin-right: 5px;
 	background-color: rgba(255, 255, 255);
 	padding: 20px;
 	width: 70%;
-	height: 1700px;
   	margin: 0 auto;
 }
 
@@ -258,6 +257,25 @@ margin-right: 5px;
 	padding: 20px;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.gallery-title {
+	text-decoration: none;
+	margin-left: 25px;
+	padding: 5px;
+}
+
+.gallery-title a {
+	color: orangered;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.gallery-title:hover a {
+	background-color: orangered;
+	color: white !important;
+	padding: 5px;
+	text-decoration: none;
 }
 
 .gallery img {
@@ -327,4 +345,90 @@ tr {
   	justify-content: center;
   	align-items: center;
   	height: 170vh;
+}
+
+.content-management {
+	position: relative;
+	z-index: 1;
+	background-color: rgba(255, 255, 255);
+	padding: 20px;
+	width: 70%;
+	height: 1700px;
+  	margin: 0 auto;
+}
+
+/*-------------------------------------
+		7. Contact Us
+--------------------------------------*/
+
+.paragraph-contact {
+	line-height: 2 !important;
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin-left: 10px;
+	text-align: center;
+	color: grey;
+}
+
+.form-container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 800px;
+	margin: 0 auto;
+}
+  
+.contact-form {
+	flex: 1;
+	text-align: center;
+	margin-right: 30px;
+}
+  
+.contact-form:last-child {
+	margin-right: 0;
+}
+  
+.contact-form input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid orange;
+	border-radius: 4px;
+}
+
+.textarea-row {
+	clear: both;
+	margin: 20px;
+	max-width: 0 auto;
+	margin: 0 auto;
+}
+  
+.full-width {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid orange;
+	border-radius: 4px;
+	height: 150px;
+}
+
+.submit-row {
+	text-align: center;
+	margin-top: 20px;
+}
+  
+.submit-button {
+	background-color: #ff6f00;
+	color: #fff;
+	border: 2px solid white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+  
+.submit-button:hover {
+	background-color: white;
+	border: 2px solid orange !important;
+	color: orange;
+	transition: none;
 }
