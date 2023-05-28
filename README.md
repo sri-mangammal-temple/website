@@ -43,6 +43,17 @@ This repository is where we build the temple website together collaborting with 
   </ol>
 </details>
 
+## About The Website
+
+## Built With
+
+## Getting Started
+## Contributing
+```sh
+github.com
+```
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
