@@ -48,7 +48,7 @@ This repository is where we build the temple website together collaborting with 
 ## Built With
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* * [![JQuery][JQuery.com]][JQuery-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 ## Getting Started
 ## Contributing
@@ -72,3 +72,5 @@ github.com
 [product-screenshot]: images/screenshot.png
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
