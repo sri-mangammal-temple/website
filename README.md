@@ -46,7 +46,11 @@ This repository is where we build the temple website together collaborting with 
 <!-- ABOUT THE WEBSITE -->
 ## About The Website
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  <a href="https://sri-mangammal-temple.github.io/website/">
+    <img src="assets/images/github/website.png" alt="Logo">
+  </a>
+</div>
 
 ## Built With
 
