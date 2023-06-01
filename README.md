@@ -43,7 +43,10 @@ This repository is where we build the temple website together collaborting with 
   </ol>
 </details>
 
+<!-- ABOUT THE WEBSITE -->
 ## About The Website
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 ## Built With
 
@@ -73,4 +76,5 @@ github.com
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
+[product-screenshot]: assets/images/github/website.png
