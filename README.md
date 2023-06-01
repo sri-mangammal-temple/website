@@ -48,7 +48,7 @@ This repository is where we build the temple website together collaborting with 
 ## Built With
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* * [![JQuery][JQuery.com]][JQuery-url]
 
 ## Getting Started
 ## Contributing
