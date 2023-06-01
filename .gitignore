@@ -1,2 +1,8 @@
 assets/assets/
-assets/css/php/
+backend/public/images/
+backend/public/javascripts/
+backend/public/stylesheets/
+backend/bin
+backend/.env
+node_modules
+contact-sample.html

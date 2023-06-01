@@ -7,8 +7,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		
-		
 
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
@@ -40,8 +38,6 @@
 
 		<!--owl.carousel.css-->
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link href="assets/css/owl.theme.default.min.css" rel="stylesheet"/>
-
 
         <!--bootstrap.min.css-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -60,8 +56,8 @@
 		<style>
 			body {
 				background-image: url("assets/images/banner/background.png");
-				background-repeat: no-repeat;
-				background-size: cover;
+				background-repeat: no-repeat; /* Optional: Specify how the image should repeat */
+				background-size: cover; /* Optional: Adjust the size of the background image */
 			}
 		</style>
 
@@ -70,20 +66,17 @@
 	<body>
 
 		<script>
-
-				document.addEventListener("click", function(event) {
-					var dropdowns = document.getElementsByClassName("dropdown-content");
-					var i;
-					for (i = 0; i < dropdowns.length; i++) {
-			  			var dropdown = dropdowns[i];
-			  			if (!dropdown.contains(event.target)) {
-							dropdown.style.display = "none";
-			  			}
-					}
-		  		});
-	
+			document.addEventListener("click", function(event) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var dropdown = dropdowns[i];
+			  		if (!dropdown.contains(event.target)) {
+						dropdown.style.display = "none";
+			  		}
+				}
+		  	});
 		</script>
-		  
 		
 		<!--header start-->
 		<section class="top-header">
@@ -119,7 +112,7 @@
 								<li><a href="construction.html">Construction</a></li>
 							</ul>
 						</li>
-			  			<li><a href="contact.html">Contact Us</a></li>
+			  			<li><a href="http://localhost:3300/">Contact Us</a></li>
 						<li><a href="sitemap.html">Sitemap</a></li>
 					</ul>
 				</div>
@@ -245,8 +238,6 @@
 			</div>	
         </div>
 
-
-
         <!-- footer-copyright start -->
 		<footer class="footer-copyright">
 			<div class="container">
@@ -262,7 +253,7 @@
 						<div class="foot-menu pull-right">	  
 							<ul>
 								<li ><a href="#">legal</a></li>
-								<li ><a href="#">sitemap</a></li>
+								<li ><a href="sitemap.html">sitemap</a></li>
 								<li ><a href="#">privacy policy</a></li>
 							</ul>
 						</div><!-- /.foot-menu-->
@@ -272,13 +263,11 @@
 		</footer><!-- /.footer-copyright-->
 		<!-- footer-copyright end -->
 		  
-
 		<script src="assets/js/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         
         <!--modernizr.min.js-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
 		
 		<!--bootstrap.min.js-->
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -286,13 +275,11 @@
 		<!-- bootsnav js -->
 		<script src="assets/js/bootsnav.js"></script>
 		
-		<!-- for manu -->
+		<!-- for menu -->
 		<script src="assets/js/jquery.hc-sticky.min.js" type="text/javascript"></script>
 
-		
-		<!-- vedio player js -->
+		<!-- video player js -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
-
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
@@ -323,8 +310,6 @@
         <script type="text/javascript" src="assets/js/custom.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"></script>
-		
 
     </body>
-	
 </html>

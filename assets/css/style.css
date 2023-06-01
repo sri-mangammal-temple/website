@@ -162,7 +162,7 @@ nav ul li:hover .dropdown {
 	background-color: #e97633;
 	color: #fff;
 	padding: 10px;
-	animation: marquee 20s linear infinite;
+	animation: marquee 1s linear infinite;
 	right: 0;
 }
   
@@ -185,7 +185,7 @@ margin-right: 5px;
 	padding: 0;
 	margin: 0;
 	display: inline-flex;
-	animation: newsTicker 15s linear infinite;
+	animation: newsTicker 20s linear infinite;
 }
   
 .flash-news-item {
@@ -195,10 +195,10 @@ margin-right: 5px;
 
 @keyframes newsTicker {
 	0% {
-	  transform: translateX(600%);
+	  transform: translateX(200%);
 	}
 	100% {
-	  transform: translateX(-400%);
+	  transform: translateX(-200%);
 	}
 }
 
@@ -302,6 +302,40 @@ margin-right: 5px;
 	width: 50%;
 }
 
+.photo-category {
+	display: inline-block;
+	margin: 20px;
+}
+  
+.photo-link {
+	display: block;
+	text-decoration: none;
+	border: 5px solid orangered;
+	padding: 10px;
+	width: 200px;
+	transition: background-color 0.3s;
+}
+  
+.photo-link:hover {
+	background-color: orangered;
+	text-decoration: none !important;
+}
+  
+.photo-image {
+	width: 100%;
+	height: auto;
+}
+  
+.photo-title {
+	text-align: center;
+	margin-top: 5px;
+	color: orangered;
+}
+
+.photo-category:hover .photo-title {
+	color: white;
+}
+
 /*-------------------------------------
 		6. Management
 --------------------------------------*/
@@ -353,7 +387,6 @@ tr {
 	background-color: rgba(255, 255, 255);
 	padding: 20px;
 	width: 70%;
-	height: 1700px;
   	margin: 0 auto;
 }
 
