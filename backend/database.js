@@ -12,7 +12,7 @@ console.log("Code is executing!")
 
 connection.connect((error) => {
     if(error) throw error;
-    console.log("Connection to the database is succesful");
+    console.log("Connection to the database is successful");
 });
 
 module.exports = connection;
